@@ -14,7 +14,7 @@ public class ChangeMoney {
 		for(int i = 0; i < marr.length; i++) {
 		    cnt = money / marr[i];
 		    if(cnt > 0)
-		    	System.out.println(mstr[i][0] + " "+ cnt + mstr[i][1]);
+		    	System.out.println(mstr[i][0] + " " + cnt + mstr[i][1]);
 		    money %= marr[i];
 		}
 		sc.close();
