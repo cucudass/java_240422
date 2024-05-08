@@ -1,6 +1,5 @@
 package question06;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class PrintAlphabet {
@@ -10,24 +9,13 @@ public class PrintAlphabet {
 		String str = sc.next();
 		
 		char ch = str.charAt(0);
-		int num = ch - 'a' + 1;
 		
-		char ch1 = 'a';		
-		char[] arr = new char[num];
-		
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = ch1;
-			ch1 += 1;
-		}
-		
-		for (int i = 0; i < arr.length; i++) {
-			int n = arr.length - i;
-			for (int j = 0; j < n; j++) {
-				System.out.print(arr[j]);
+		for (int i = 0; i < ch; i++) {
+			for(char c = 'a'; c <= ch - i; c++) {
+				System.out.print(c);
 			}
-			System.out.println();
+			System.out.println("");
 		}
-		
 		sc.close();
 	}
 }
