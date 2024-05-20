@@ -1,4 +1,4 @@
-package chpater07;
+package chapter07;
 
 public class BoxExample {
 	public static void main(String[] args) {

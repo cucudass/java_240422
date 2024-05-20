@@ -1,4 +1,4 @@
-package chpater07;
+package chapter07;
 
 //T를 타입파라미터로 받는 제네릭
 public class Box2<T> {
