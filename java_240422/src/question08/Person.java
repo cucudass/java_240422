@@ -1,4 +1,4 @@
-package qustion08;
+package question08;
 
 public class Person {
 	public String lastName;

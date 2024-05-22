@@ -1,4 +1,4 @@
-package qustion08;
+package question08;
 
 import java.util.ArrayList;
 import java.util.Scanner;
