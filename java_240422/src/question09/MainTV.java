@@ -7,7 +7,7 @@ class TV {
 }
 
 class ColorTV extends TV {
-	private int color;
+	protected int color;
 	
 	public ColorTV(int size, int color) {
 		super(size);
